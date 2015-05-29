@@ -7,6 +7,7 @@
 	<title>Lianna's Page</title>
 	<link rel="stylesheet" href="css2/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
 </head>
 <header>
 		<div class = "nav">
@@ -18,7 +19,7 @@
 		</div>
 </header>
 <body>
-	<p>Lianna</p>
+	<h1>Lianna</h1>
 </body>
 <footer>
 </footer>

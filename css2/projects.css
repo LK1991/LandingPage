@@ -166,3 +166,7 @@ h1 {
   text-align: center;
   color: white;
 }
+
+h2 {
+  word-spacing: 2px;
+}

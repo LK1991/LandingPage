@@ -16,14 +16,6 @@ body {
 	top: 0;
 }
 
-p {
-	font-size: 70px;
-	color: white;
-	text-align: center;
-	padding-top: 100px;
-	font-family: Montserrat,sans-serif;
-}
-
 ul {
 	text-align: center;
 	word-spacing: 60px;
@@ -40,17 +32,10 @@ a:hover {
 	color: #50596A;
 }
 
-#body {
+h1 {
+	font-size: 70px;
+	color: white;
 	text-align: center;
-	background-color: white;
+	padding-top: 220px;
+	font-family: Montserrat,sans-serif;
 }
-
-#h1 {
-	padding-top: 50px;
-}
-
-#p {
-	color: black;
-	font-size: 14px;
-}
-

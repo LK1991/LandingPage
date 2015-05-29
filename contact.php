@@ -1,3 +1,7 @@
+<?php
+	require_once(__DIR__ . "/model/config.php");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +22,7 @@
 <body>
 	<h1>Email Me</h1>
 
-	<form method="post" id = "form">
+	<form method="post" id = "form" action="<?php echo $path . "controller/create-post.php"; ?>">
 		<div>
 			<label for="name">Name: </label>
 			<input type="text" name="name" />
@@ -26,12 +30,12 @@
 
 		<div>
 			<label for="email">Email: </label>
-			<input type="text" name="password" />
+			<input type="text" name="email" />
 		</div>
 
 		<div>
 			<label for="message">Message: </label>
-			<textarea rows="4" name="comment"></textarea>
+			<textarea rows="4" name="post"></textarea>
 		</div>
 
 		<div>
@@ -41,9 +45,9 @@
 	<p>Or: </p>
 	<div class="social">
     	<ul id = "social">
-    	  <li title="Twitter"><a href="https://twitter.com/louis_tomlinson"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_gray-64.png" alt="twitter" /></a></li>
+    	  <li title="Twitter"><a href="https://twitter.com/Louis_Tomlinson"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_gray-64.png" alt="twitter" /></a></li>
 	      <li title="Facebook"><a href="https://www.facebook.com/twentyonepilots"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_gray-64.png" alt="facebook" /></a></li>
-	      <li title="Google Plus"><a href="https://plus.google.com/111200764202714440999/posts"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/google_circle_gray-64.png" alt="google +" /></a></li>
+	      <li title="Github"><a href="https://github.com/LK1991"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_gray-64.png" alt="github" /></a></li>
     	</ul>
   </div>
 </body>
